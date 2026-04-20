@@ -63,8 +63,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BlurBackdropTheme {
-//                AvatarCutThrough()
-                BlurOverlaps()
+                AvatarCutThrough()
+//                BlurOverlaps()
             }
         }
     }
